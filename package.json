@@ -3,7 +3,7 @@
   "displayName": "my-comment",
   "description": "快捷生成特定注释",
   "version": "0.0.1",
-  "publisher": "yiri",
+  "publisher": "yirizhou",
   "repository": {
     "type": "git",
     "url": "https://github.com/bugszhou/vscode-my-comment"
