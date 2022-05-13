@@ -1,8 +1,16 @@
 {
   "name": "my-comment",
   "displayName": "my-comment",
-  "description": "component comment",
+  "description": "快捷生成特定注释",
   "version": "0.0.1",
+  "publisher": "yiri",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bugszhou/vscode-my-comment"
+  },
+  "bugs": {
+    "url": "https://github.com/bugszhou/vscode-my-comment/issues"
+  },
   "engines": {
     "vscode": "^1.67.0"
   },
@@ -39,10 +47,10 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "yarn run compile",
+    "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "pretest": "yarn run compile && yarn run lint",
+    "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js"
   },
